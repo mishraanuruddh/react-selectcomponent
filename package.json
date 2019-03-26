@@ -1,0 +1,33 @@
+{
+  "name": "react-selectcomponent",
+  "version": "1.0.2",
+  "description": "A simple extensible component that can help selectively render components based on some criteria",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "author": {
+    "name": "Anuruddh Mishra"
+  },
+  "main": "build/index.js",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mishraanuruddh/react-selectcomponent.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.5"
+  },
+  "dependencies": {
+    "react": "^16.8.5",
+    "webpack": "^4.29.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "webpack-cli": "^3.3.0"
+  }
+}
